@@ -5,85 +5,91 @@
 
 body{	
 	position: absolute;
-	font-family: "Comic Sans MS", cursive, sans-serif;
-	font-size: 90%;
+	font-family: 'Jost', sans-serif;
 }
 
 h1{	
 	text-align: center;
+	font-size: 140%;
+}
+
+.right{
+	margin-left: 70%;
+	text-align: center;
+	border: 1px solid black;
+	width: 30%;
+	padding: 6.5px;
+	font-weight: bold; 
+	font-size: 100%;
 }
 
 p{
 	padding-left: 20px;
 	padding-right: 20px;
-}
-
-.right{
-	margin-left: 65%;
-	text-align: center;
-	border: 1px solid green;
-	width: 35%;
-	padding: 3%;
-	font-weight: bold; 
+	font-size: 80%;
 }
 
 #d1{
-	background-color: pink;
+	background-color: #e3eaa7;
 }
 
 #d2{
-	color: white;
-	background-color: red;
+	background-color: #b5e7a0;
 }
 
 #d3{
-	background-color: yellow;
+	color: white;
+	background-color: #86af49;
 }
 
 @media(min-width: 992px){
 	.col-lg{
 		float: left;
-		border: 1px solid green;
+		border: 1px solid black;
 		width: 29%;
 		margin: 2%;
-		background-color: grey;
+		background-color: #d5e1df;
 	}
 }
 
 @media(min-width: 768px) and (max-width: 991px){
 	.col-md-1{
 		float: left;
-		border: 1px solid green;
+		border: 1px solid black;
 		width:	46%;
 		margin: 2%;
-		background-color: grey;
+		background-color: #d5e1df;
 	}
 	.col-md-2{
-		float: left;
-		border: 1px solid green;
+		float: right;
+		border: 1px solid black;
 		width: 96%;
 		margin: 2%;
-		background-color: grey;
+		background-color: #d5e1df;
 	}
 	#d3{
-
-	}
-	.right{
-		margin-left: 65%;
+		margin-left: 84.9%;
 		text-align: center;
-		border: 1px solid green;
-		width: 35%;
-		padding: 1.5%;
+		border: 1px solid black;
+		width: 15.1%;
+		padding: 6.5px;
+	}
+	#d1,#d2{
+		margin-left: 70%;
+		text-align: center;
+		border: 1px solid black;
+		width: 30%;
+		padding: 6.5px;
 	}
 }
 
 @media(max-width: 767px){
 	.col-sm{
 		float: left;
-		border: 1px solid green;
+		border: 1px solid black;
 		width: 96%;
 		margin: 2%;
-		background-color: grey;
+		background-color: #d5e1df;
 	}
 
 }
