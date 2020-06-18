@@ -1,0 +1,117 @@
+/*Customized Style*/
+*{
+	position: relative;
+	clear: both;
+}
+
+body{
+	font-family: 'Itim', cursive;
+	background-color: #82b74b;
+	color: white;
+}
+
+#header-nav{
+	background-color: #405d27;
+	border-radius: 0;
+	border: 0;
+	padding-left: 0;
+	padding-bottom: -15px;
+}
+
+.navbar-brand h1{
+	color: white;
+	font-size: 45px;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 0.50;	
+	text-decoration: none;
+}
+
+.navbar-brand a:hover{
+	text-decoration: none;
+}
+
+.navbar-brand a:focus{
+	text-decoration: none;
+}
+
+.navbar-default .navbar-toggle{
+	position: absolute;
+	left: 85%;
+	bottom: 20%;
+	background-color: #82b74b;
+	border-color: #405d27;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color:#405d27; 
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: #3e4444;
+}
+
+.container{
+	position: relative;
+}
+
+.container h2{
+	text-shadow: 2px 2px 5px red;
+	font-weight: bold;
+	font-size: 200%;
+	margin-bottom: 30px;
+}
+
+.navbar-header button.navbar-toggle .navbar-header .icon-bar{
+	border: 1px #405d27;
+}
+
+#nav-list{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #3e4444;
+}
+#nav-list li{
+	margin: 1px;
+}
+#nav-list a{
+	background-color: #3e4444;
+	color: white;
+}
+#nav-list a:hover{
+	background-color: #405d27;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border-color:#405d27; 
+}
+.btt{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+h3{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 150%;
+}
+
+#collapsable-nav{
+	font-size:1.2em;
+	text-align: center;
+}
+
+.col-md-12 {
+	background-color: #405d27;
+	margin: 5px;
+}
+
+.col-md-12 p{
+	padding-top: 2px;
+	padding-bottom: 15px;
+}
+
+.col-xs-12{
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
